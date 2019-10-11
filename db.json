@@ -1,0 +1,16 @@
+{
+    "restaurant" : [
+        {
+            "precio" : "5",
+            "nombre" : "Cheesecake",
+            "categoria" : "postre",
+            "id" : 1
+        },
+        {
+            "precio" : "15",
+            "nombre" : "Entrecot",
+            "categoria" : "carne",
+            "id" : 2
+        }
+    ]
+}
