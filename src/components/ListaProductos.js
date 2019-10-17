@@ -1,7 +1,7 @@
 import React, {Fragment} from 'react';
 import ElementoListaProducto from './ElementoListaProducto';
 
-const ListaProductos = ({productos}) => {
+const ListaProductos = ({productos, guardarRecargaProductos}) => {
     return (
         <Fragment>
             <h1 className="text-center">Lista producto</h1>
@@ -9,7 +9,8 @@ const ListaProductos = ({productos}) => {
                 {productos.map(producto => (
                     <ElementoListaProducto 
                     key={producto.id}
-                    producto={producto}/>
+                    producto={producto}
+                    guardarRecargaProductos={guardarRecargaProductos}/>
                 ))}
             </ul>
         </Fragment>
