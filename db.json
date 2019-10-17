@@ -1,16 +1,52 @@
 {
-    "restaurant" : [
-        {
-            "precio" : "5",
-            "nombre" : "Cheesecake",
-            "categoria" : "postre",
-            "id" : 1
-        },
-        {
-            "precio" : "15",
-            "nombre" : "Entrecot",
-            "categoria" : "principal",
-            "id" : 2
-        }
-    ]
+  "restaurant": [
+    {
+      "nombre": "Cheesecake",
+      "precio": "5",
+      "categoria": "postre",
+      "id": 1
+    },
+    {
+      "precio": "15",
+      "nombre": "Entrecot",
+      "categoria": "principal",
+      "id": 2
+    },
+    {
+      "nombre": "Pizza Carbonara",
+      "precio": "7",
+      "categoria": "principal",
+      "id": 3
+    },
+    {
+      "nombre": "Cola Zero",
+      "precio": "2",
+      "categoria": "bebida",
+      "id": 4
+    },
+    {
+      "nombre": "Agua",
+      "precio": "1",
+      "categoria": "bebida",
+      "id": 5
+    },
+    {
+      "nombre": "Ensalada césar",
+      "precio": "4",
+      "categoria": "ensalada",
+      "id": 6
+    },
+    {
+      "nombre": "Tortitas",
+      "precio": "4",
+      "categoria": "postre",
+      "id": 7
+    },
+    {
+      "nombre": "Ensalada de bacon",
+      "precio": "5",
+      "categoria": "ensalada",
+      "id": 8
+    }
+  ]
 }
